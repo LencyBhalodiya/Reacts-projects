@@ -1,0 +1,179 @@
+@media (max-width: 1200px) {
+  .icon {
+    height: 35rem;
+    padding-left: 3rem;
+    right: 0.5rem;
+  }
+}
+@media (max-width: 912px) {
+  .icon {
+    height: 32rem;
+    padding-left: 2rem;
+    right: 0.5rem;
+  }
+  .div-sec1 {
+    width: 50%;
+    margin-left: 0.3rem;
+    font-size: 3.4rem;
+    text-align: left;
+    justify-content: center;
+    z-index: 1;
+    /* border: 2px solid black; */
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 736px) {
+  .icon {
+    height: 30rem;
+    padding-left: 1rem;
+    right: 0.5rem;
+  }
+  .div-sec1 {
+    width: 50%;
+    margin-left: 0.3rem;
+    font-size: 3.2rem;
+    text-align: left;
+    justify-content: center;
+    z-index: 1;
+    /* border: 2px solid black; */
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 607px) {
+  .icon {
+    height: 22rem;
+    padding-left: 1rem;
+    right: 0.5rem;
+  }
+  .div-sec1 {
+    width: 70%;
+    margin-bottom: auto;
+    margin-left: 0.3rem;
+    font-size: 3rem;
+    text-align: left;
+    justify-content: center;
+    z-index: 1;
+    /* border: 2px solid black; */
+    padding-left: 0.3rem;
+  }
+}
+/* second page */
+@media (max-width: 570px) {
+  .profile {
+    width: 10rem;
+    margin: 2rem;
+  }
+
+  .h1 {
+    margin: 1.2rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+  }
+  .div-2 {
+    width: 90%;
+    line-height: 1.8rem;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
+/* third page */
+/* fourth page */
+@media (max-width: 927px) {
+  .div-44 {
+    width: 50%;
+  }
+  .project {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30rem;
+    z-index: 0;
+  }
+  .div-4 {
+    position: absolute;
+    top: 6rem;
+    font-size: 2.8rem;
+    padding: 1.3rem;
+    width: 100%;
+  }
+}
+@media (max-width: 418px) {
+  .div-44 {
+    width: 50%;
+  }
+  .project {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 23rem;
+    z-index: 0;
+  }
+  .div-4 {
+    position: absolute;
+    top: 8rem;
+    font-size: 2.8rem;
+    padding: 1.3rem;
+    width: 100%;
+  }
+}
+@media (max-width: 714px) {
+  .div-sec5 {
+    position: absolute;
+    top: 8rem;
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    color: #111;
+  }
+  .contactpic {
+    height: 30rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    right: 0;
+  }
+}
+@media (max-width: 499px) {
+  .div-sec5 {
+    position: absolute;
+    top: 11rem;
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    color: #111;
+  }
+  .contactpic {
+    height: 23rem;
+    position: absolute;
+    z-index: 0;
+    right: -1.5rem;
+  }
+}
+
+/* my skills */
+@media (max-width: 496px) {
+  .myskill {
+    display: none;
+    top: 5px;
+    left: 32%;
+    font-size: 1.5rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  #main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #main div {
+    padding-left: 0.6rem;
+    width: 100%;
+  }
+}
